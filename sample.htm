@@ -33,6 +33,62 @@
 		such as &amp; or &copy; <br>
 		less than &lt; or greater than &gt;
 	</p>
+	
+	<h2>Formatting tags</h2>
+	
+	<p>
+		This text is <b>bold</b> <br>
+		This text is <i>italic</i> <br>
+		This text is <b><i>bold and italic</b></i> <br>
+			<!--don't mess up the order of operations of closing tags, can cause bugs-->
+			
+		<!--use the following tags over the above ones-->
+		This text is <strong>strong (bold)</strong> <br>
+		this text is <em>emphasized (italic)</em>
+		This text is <big>bigger</big> <br>
+		This text is <small>smaller</small> <br>
+		This text is <big><big>2 sizes bigger</big></big> <br>
+		This text is <small><small>2 sizes smaller</small></small> <br>
+		This text is <tt>typewriter text, which is a monospaced font</tt> <br>
+		This text is <code>code, a monospaced font</code> <br>
+		superscript example: O<sup>2</sup> <br>
+		subscript example: O<sub>2</sub> <br>
+		This text is <ins>inserted</ins> <br>
+		This text is <del>deleted</del> <br>
+		this text is <u>underlined</u>
+			<!--avoid using this, as it will look like a link-->
+		
+		<center><pre>
+name    Address    Phone
+Jean	HC		   24601
+		</pre></center>
+
+	<blockquote>
+		The following text will be indented from both sides
+		and is useful when quoting text. The text will change
+		as the browser window is resized larger or smaller
+		but the blockquote indent will always showw. It is also
+		possible to "nest" blockquote indent which means
+		putting more than one of them in at a time. Be 
+		sure to close both of them or interesting things
+		will happen
+	</blockquote>
+	</p>
+	
+	<h2>Links</h2>
+	<p>
+		<a href= "https://hesston.edu/"> Hesston College Home Page</a> : absolute 
+		link to another website <br>
+			<!--ideally don't do this way if it's someone elses site
+			since it will make it open in the same tab-->
+		
+		
+		<a href= "https://hesston.edu/" target="_BLANK"> Hesston College Home Page</a> : absolute 
+		link to another website <br>
+			<!--target = _BLANK makes it so it opens in another window, generally better-->
+		
+		<a href="template.htm">link to the template page</a> : relative link to your own page
+	</p>
 </body>
 
 </html>
