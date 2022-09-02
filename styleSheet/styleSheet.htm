@@ -7,9 +7,13 @@
 	<meta charset="utf-8" />
 	<title>Stylesheet Example</title>
 	
+	<link rel="stylesheet" href="stylesheet.css" />
+	
+	<!--/* internal style, overrides external styles-->
 	<style>
-		h2 {color : yellow;}
+		h1 { color : red; }
 	</style>
+	<!--*/-->
 </head>
 
 
@@ -26,17 +30,17 @@
 Here's a p element.
 </p>
 
-<p>
+<p class="class1">
 Here's a p element with a class name of <i>class1</i>
 (classes can be used multiple times).
 </p>
 
-<p>
+<p id="id1">
 Here's a p element with an id of <i>id1</i>
 (ids can be used only once).
 </p>
 
-<p>
+<p class="class1">
 Here's a p element with a class name of <i>class1</i> (classes can be used multiple times).
 </p>
 
@@ -67,6 +71,7 @@ Paragraph 2 in div#id2
 Paragraph 2 in div#id2 
 </p>
 
+<div id="id2">
 <p>
 Paragraph 3 in div#id2 
 Paragraph 3 in div#id2 
@@ -78,7 +83,7 @@ Paragraph 3 in div#id2
 Paragraph 3 in div#id2 
 </p>
 
-
+	<div id="id3">
 	<p>
 	<em>Paragraph 4</em> in div#id3 and div#id2
 	</p>
@@ -86,7 +91,9 @@ Paragraph 3 in div#id2
 	<p>
 	<em>Paragraph 5</em> in div#id3 and div#id2
 	</p>
+	</div> <!--id3-->
 
+</div> <!--id2-->
 
 
 
@@ -102,9 +109,11 @@ This line contains obli span<br />
 <img src="images/frogt.jpg" height="75" width="102" alt="Poison Arrow frog"
  title="Poison Arrow frog" align="left" />
 
+<div class="class2">
 Relative positioning moves an element but does not affect the flow of other elements.<br />
 Absolute positioning moves an element and affects the flow of all other elements.<br />
 Fixed positioning keeps elements from moving when the user scrolls.<br />
+</div>
 
 </body>
 
