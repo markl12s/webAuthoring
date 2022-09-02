@@ -5,9 +5,39 @@
    This is a CSS comment.
    The browswer will ignore comments.
    
-   Programmer:    Your Name
-   Last modified: 
+   Programmer:    Mark Leard
+   Last modified: 2 sept 2022
+   
+   most of the time when working with stylesheets make it an external file
 */
 
+h2 {
+	color: yellow;
+	background: black;
+	
+	font-size: 24px;
+	font-size: 150%;
+	font-size: 2em;
+}
+
+p {
+	color: red;
+	color: #0000FF;
+	color: rgb(255, 0, 0);
+}
+
+.class1 {
+	color: blue;
+}
+
+p#id1 {
+	color: green;
+}
+
+#id2 {
+	line-height: 1.5;
+	background: url(images/gray_roc.jpg);\
+	border: 4px solid black;
+}
 
 -->
