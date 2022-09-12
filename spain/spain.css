@@ -1,0 +1,54 @@
+/* spain.css */
+<!--
+/*
+#wrap {
+		background-color: blue;
+		background-image: url(../images/frogt.jpg);
+		background-repeat: no-repeat;     repeat (default), no-repeat repeat-x, repeat-y
+		background-attachment: fixed;     scroll (default), fixed
+		background-position: center center;
+}
+*/
+
+#wrap {
+	background: blue url(miniphotos/bluebench.jpg) top left;
+	width: 90%;
+	margin: 20px auto;
+	padding: 30px 20px 0 0;
+}
+
+#screen {
+	background: #FEF6F8;
+	padding: 10px 10px 10px 0;
+}
+
+#main {
+	width: 72%;
+}
+
+	/*
+	   setting margins and padding
+	   margin: w;  -or-  padding: w;  set w units all around
+	   margin: w x;                   set w-top/bottom, x-left/right
+	   margin: w x y;                 set w-top, x-left/right, y-bottom
+	   margin: w x y z;               set w-top, x-right, y-bottom, z-left
+	*/
+
+
+	/*
+	   setting the border
+	   border-style: [none dotted dashed solid];
+	   border-width: 5px;
+	   border-color: red;
+	   border-top-[width style color]: value;
+	   border-right-[width style color]: value;
+	   border-bottom-[width style color]: value;
+	   border-left-[width style color]: value;
+
+	   can also just use border: and set properties
+	   order is width style color
+	   you must include a style
+	   border: 4px dashed red;
+	*/
+
+-->
