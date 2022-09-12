@@ -1,37 +1,126 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
 	<meta charset="utf-8" />
-	<title>Table</title>
+	<title>Tables</title>
+	
+	<style>
+	table {
+		border-color: black;
+		border-width: 5px;
+	}
+	
+	th, tr, td {
+		border-color: black;
+		border-width: 2px;
+	}
+	
+	</style>
 </head>
 
 <body>
-	<div align="center">
-		<font size="-1">
-			<a href="index.htm">Home</a> |
-			<a href="sample.htm">Sample</a> |
-			<a href="stylesheet.htm">Stylesheet</a> |
-			<a href="courses.htm">Courses</a> |
-			<a href="https://hesston.edu/" target="_BLANK">Hesston College</a>
-		</font>
-	</div>
 
-	<h2 align="center">Table</h2>
+<div align="center">
+<font size="-1">
+<a href="index.htm">Home</a>
+</div>
+
+<p><hr /></p>
+
+<h2>Table 1</h2>
+
+<table border="5" width="585" cellspacing="0" cellpadding="10">
+
+<tr>
+<td>Row 1 Column 1<br />&nbsp;</td><td>Column 2</td> <td valign="bottom">Column 3</td>
+</tr>
+
+<tr align="center">
+<td align="left">Row 2 Column 1</td> <td>Column 2</td> <td>Column 3</td>
+</tr>
+
+<tr>
+	<td width="200">Row 3 Column 1</td>
+	<td align="center">Column 2</td>
+	<td align="right">Column 3</td>
+</tr>
+
+</table>
+
+
+
+<h2>Table 2</h2>
+
+<table border="5" width="585" cellspacing="0" cellpadding="10"
+	bgcolor="gold" frame="hsides" rules="rows">
+
+<!-- set cellspacing=0 to use table border styles (see head section) -->
+
+<!-- frame controls the border around the entire table -->
+<!-- frame = void, above, below, hsides, vsides, rhs, lhs, box -->
+
+<!-- rules controls the interior borders -->
+<!-- rules = none, rows, cols, groups, all -->
+
+<colgroup />            						 <!-- first column, this must be closed (skip) -->
+<colgroup span="3" style="background: orange;">  <!-- next three coolums -->
+	<col span="2" />							 <!-- first two colums in span 3 (skip) -->
+	<col style="background: yellow;">			 <!-- third column in span 3 -->
+</colgroup>
+
+<thead style="color: black;">
+<tr bgcolor="green">
+	<th colspan="4"><font size="+2">Hesston College Internet Professional Courses</font></th>
+</tr>
+</thead>
+
+
+<tbody style="text-align: center;">
+<tr>
+	<th>Semester</th>
+	<th>Number</th>
+	<th>Course Title</th>
+	<th>Credits</th>
+</tr>
+<tr>
+	<td rowspan="2" bgcolor="ivory">Fall</td>
+	<td>BuCS126</td>
+	<td align="left">Networking Technologies</td>
+	<td>3</td>
+</tr>
+<tr>
 	
-	<table border="5" width="585" height="585" cellspacing="0" cellpadding="10">
-		<tr align="center">
-			<td>Row 1, column 1 <br> &nbsp; <td>Row 1, column 2</td> <td>Row 1, column 3</td>
-		</tr>
-		
-		<tr align="center">
-			<td>Row 2, column 1</td> <td>Row 2, column 2</td> <td>Row 2, column 3</td>
-		</tr>
-		
-		<tr align="center">
-			<td>Row 3, column 1</td> <td>Row 3, column 2</td> <td>Row 3, column 3</td>
-		</tr>
-	</table>
+	<td>BuCS138</td>
+	<td align="left">Computer Programming I</td>
+	<td>3</td>
+</tr>
+
+<tr>
+	<td rowspan="2" bgcolor="ivory">Spring</td>
+	<td>BuCS123</td>
+	<td align="left">Web Authoring and Publishing</td>
+	<td>3</td>
+</tr>
+
+<tr>
+
+	<td>BuCS225</td>
+	<td align="left">Web Site Design</td>
+	<td>3</td>
+</tr>
+</tbody>
+
+<tfoot style="background: yellow;">
+<tr>
+	<td colspan="4" align="center"><img src="images/bugt.jpg" width="104"
+    height="75" alt="lantern fly" title="lantern fly"</td>
+</tr>
+</tfoot>
+
+</table>
+
 </body>
 
 </html>
