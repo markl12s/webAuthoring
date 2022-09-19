@@ -1,0 +1,115 @@
+/*
+	2 TB  LR
+	3 T   LR   B
+	4 T   R    B    L
+*/
+
+body {
+	font-family: "Trebuchet MS", Verdana, sans-serif; color: #006666;
+}
+
+h1 {
+	font-size: 1.8em;
+	white-space: nowrap;
+	margin: 10px 0 5px;
+}
+
+p {
+	font-size: .9em;
+	margin: 0 0 10px 0;
+}
+
+/*
+table, td {
+	border: none;
+	table-layout: fixed;
+}
+*/
+
+table {
+	 
+}
+
+/*
+.toc {
+ 	width: 110px;
+	vertical-align: top;
+	padding: 25px 0 0 10px;
+	background: #339966 url(longerfish.jpg);
+}
+*/
+
+.toc {
+
+}
+
+
+/*
+.rightsidebar {
+	width: 200px;
+	float: right;
+	border: none;
+	background: #006666;
+	color: white;
+	margin: 0 0 5px 10px;
+}
+*/
+
+.rightsidebar {
+	 
+}
+
+/*
+.main {
+	padding-left: 10px;
+}
+*/
+
+.caption {
+	font-size: .8em; 
+	font-style: italic; 
+	text-align: center;
+	color: black;
+}
+
+.center {text-align: center;}
+
+.right {text-align: right;}
+
+.logobar {background: #ffff66;}
+
+/*
+.toc a:link {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.toc a:visited {
+	color: gray;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.toc a:hover {
+	color: yellow;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.toc a:active {
+	color: yellow;
+	text-decoration: underline;
+} 
+
+a:link.current {color: yellow;}
+
+*/
+
+.copyright {
+	padding: 5px;
+	background: #006666; 
+	color: white;
+	font-size: .7em;
+	font-style: italic;
+}
