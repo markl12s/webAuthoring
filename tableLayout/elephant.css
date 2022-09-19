@@ -40,7 +40,10 @@ table {
 */
 
 .toc {
-
+	width: 110px;
+	vertical-align: top;
+	padding: 25px 0 0 10px;
+	background: #339966 url(images/longerfish.jpg);
 }
 
 
