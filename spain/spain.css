@@ -1,13 +1,14 @@
 /* spain.css */
 <!--
+
 /*
 #wrap {
-		background-color: blue;
-		background-image: url(../images/frogt.jpg);
-		background-repeat: no-repeat;     repeat (default), no-repeat repeat-x, repeat-y
-		background-attachment: fixed;     scroll (default), fixed
-		background-position: center center;
-}
+
+	background-color: blue;	   
+    background-image: url(../images/frogt.jpg);
+	background-repeat: no-repeat;    repeat (default), no-repeat repeat-x, repeat-y
+	background-attachment: fixed;    scroll (default), fixed
+	background-position: center center; }
 */
 
 #wrap {
@@ -22,10 +23,99 @@
 	padding: 10px 10px 10px 0;
 }
 
-#main {
-	width: 72%;
+.description {
+	width: 22em;
+	position: relative;
+	left: 1em;
+	bottom: 1em;
+	font-weight: bold;
+	font-style: italic;
 }
 
+#navbuttons {
+	float: right;
+	width: 19em;
+	position: relative;
+	top: -1em;
+	
+}
+
+a {
+	font-style: italic;
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: black;
+}
+
+a:focus, a:hover, a:active {
+	background: #F3CFB6;
+}
+
+a:hover.current {
+	cursor: crosshair;
+	background: transparent;
+}
+
+#main {
+	width: 72%;
+	float: left;
+}
+
+.entry {
+	border-right: 2px dotted #B74E07;
+	padding-right: 20px;
+	position: relative;
+	top: -2em;
+}
+
+.date {
+	text-align: right;
+	position: relative;
+	top: -2.5em;
+}
+
+.continued {
+	text-align: right;
+	position: relative;
+	top: -2.5em;
+}
+
+#sidebar {
+	background: #F4F8FA;
+	margin-left: 74%;
+}
+
+.photo_text {
+	margin-left: 110px;
+	position: relative;
+	top: -2.5em;
+}
+
+
+.photo {
+	width: 100px;
+	height: 75px;
+	position: absolute;
+	left: -110px;
+	top: -.8em;
+}
+
+.photo img {
+	border: none;
+}
+
+#footer {
+	clear: both;
+	border-top: 2px dotted #B74E07;	
+}
+
+p.miniphotos {
+	height: 33px;
+	overflow: hidden;
+}
+	
 	/*
 	   setting margins and padding
 	   margin: w;  -or-  padding: w;  set w units all around
