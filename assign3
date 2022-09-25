@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<ul>
+  <li> Monday</li>
+    <ol>
+	  <li>web authoring</li>
+	  <li>math</li>
+	  <li>english</li>
+	  <li>programming</li>
+	</ol>
+  <li> Tuesday</li>
+    <ol>
+	  <li>first year seminar</li>
+	</ol>
+  <li> Wednesday</li>
+    <ol>
+	  <li>web authoring</li>
+	  <li>math</li>
+	  <li>english</li>
+	  <li>programming</li>
+	</ol>
+  <li> Thursday</li>
+    <ol>
+	  <li>first year seminar</li>
+	</ol>
+  <li> Friday</li>
+    <ol>
+	  <li>web authoring</li>
+	  <li>math</li>
+	  <li>english</li>
+	  <li>programming</li>
+	</ol>
+  <li> Saturday</li>
+  <li> Sunday</li>
+</ul>
+
+<dl>
+  <lh>dl Header</lh>
+  <dt>table</dt>
+	<dd>similar to a spreadsheet<br>
+	  used to show data in a readable way</dd>
+  <dt>tr</dt>
+	<dd>a table row</dd>
+  <dt>td</dt>
+	<dd>table data</dd>
+  <dt>th</dt>
+	<dd>table header</dd>
+  <dt>dt</dt>
+	<dd>defines a term in a description list</dd>
+  <dt>colgroup</dt>
+	<dd>defines column(s) for formatting</dd>
+  <dt>col</dt>
+	<dd>a column</dd>
+  <dt>thead</dt>
+	<dd>a group in a table</dd>
+  <dt>tbody</dt>
+	<dd>used to group a body</dd>
+  <dt>tfoot</dt>
+	<dd>sets row</dd>
+</dl>
+
+</body>
+</html>
